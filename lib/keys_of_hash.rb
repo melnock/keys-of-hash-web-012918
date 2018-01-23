@@ -3,7 +3,7 @@ class Hash
     arr = []
     i=0
     while i < arguments.length
-    self.select {|k, v| 
+    self.each {|k, v| 
       if v == arguments[*i]
         arr << k
         i+=1
