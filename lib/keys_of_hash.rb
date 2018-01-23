@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arguments)
     arr = []
     i=0
-    while i < arguments.length
+    while i < arguments.length -1
     self.each {|k, v| 
       if v == arguments[i]
         arr << k
