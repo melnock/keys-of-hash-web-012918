@@ -8,6 +8,7 @@ class Hash
         arr << k
         i+=1
       end
+      binding.pry
     } 
   end
     arr
