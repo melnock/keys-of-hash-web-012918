@@ -8,7 +8,7 @@ class Hash
     self.each {|k, v| 
       if v == arguments[i]
         arr << k
-        i+=1
+        i= i + 1
       end
       binding.pry
     } 
