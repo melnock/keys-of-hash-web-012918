@@ -4,10 +4,10 @@ class Hash
    
    arguments.each {|i|
     self.each {|k, v| 
-      if v == arguments[i]
+      if v == arguments
         arr << k
       end
-    } i += 1
+    }
     } 
 
     arr
