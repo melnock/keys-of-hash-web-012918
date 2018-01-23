@@ -1,4 +1,4 @@
-require "pry"
+
 
 class Hash
   def keys_of(*arguments)
@@ -10,7 +10,7 @@ class Hash
         arr << k
         i= i + 1
       end
-      binding.pry
+
     } 
   end
     arr
