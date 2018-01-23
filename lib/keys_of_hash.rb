@@ -4,7 +4,7 @@ class Hash
     i=0
     while i < arguments.length
     self.each {|k, v| 
-      if v == arguments[*i]
+      if v == arguments[i]
         arr << k
         i+=1
       end
