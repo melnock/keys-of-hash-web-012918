@@ -4,7 +4,7 @@ class Hash
    
    arguments.each {|i|
     self.each {|k, v| 
-      if v == arguments
+      if v == arguments.each
         arr << k
       end
     }
